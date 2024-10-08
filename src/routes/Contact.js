@@ -1,7 +1,18 @@
 import React from "react";
 
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
+import HeroImg2 from "../components/HeroImg2";
+import Form from "../components/Form";
+
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return <div>
+    <Navbar />
+    <HeroImg2 heading="CONTACT." text="Email Me!" />
+    <Form />
+    <Footer />
+    </div>;
 };
 
 export default Contact;
